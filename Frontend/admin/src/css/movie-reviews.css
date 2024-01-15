@@ -1,0 +1,29 @@
+.review-container{
+    height: 88vh;
+  width: 79.5%;
+  margin-left: auto;
+  margin-right: 0;
+  overflow: auto;
+}
+
+.review-chart{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.reviews-wrappwe{
+    width: 98%;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-bottom: 100px;
+}
+.review-detail-box{
+width: 400px;
+margin: auto;
+}
